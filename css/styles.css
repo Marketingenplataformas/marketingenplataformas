@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: linear-gradient(135deg, #4a90e2, #9013fe);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 200px;
+  margin-top: 20px;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/* WhatsApp Button */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 30px;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #25d366;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #25d366;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.5);
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1); /* Makes the icon white */
+}
+
+/* Footer */
+
+footer {
+  padding: 10px;
+}
+
+.footer {
+  font-size: 0.2rem;
+}
