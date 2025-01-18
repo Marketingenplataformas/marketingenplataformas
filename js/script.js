@@ -1,3 +1,3 @@
-document.querySelector('.btn').addEventListener('click', function() {
+document.getElementById('hablanos-btn').addEventListener('click', function() {
     fbq('trackCustom', 'HABLANOS_CLIC');
 });
